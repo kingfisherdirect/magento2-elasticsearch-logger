@@ -1,0 +1,23 @@
+{
+    "name": "kingfisherdirect/magento2-elasticsearch-logger",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil",
+            "email": "kamil@kingfisherdirect.co.uk"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "KingfisherDirect\\ElasticSearchLogger\\": ""
+        }
+    },
+    "require": {
+        "ruflin/elastica": "^7.1"
+    },
+    "version": "1.0.1"
+}
